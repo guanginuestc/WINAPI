@@ -1,6 +1,7 @@
 # WINAPI.
-windows相关api调用和实现便于使用的api\
-##GetProcessIDByName.cpp
+[toc]
+windows相关api调用和实现便于使用的api
+## GetProcessIDByName.cpp
 通过进程名称查找进程id，返回的是所有符合名称要求的进程id列表。\
 输出样例：\
 编号    进程对应id(十六进制)    进程对应id(十进制)\
@@ -8,3 +9,5 @@ windows相关api调用和实现便于使用的api\
 1       4314                    17172\
 请按任意键继续. . .
 
+## vmware虚拟机检测
+该文件提供了一个用于检测当前运行环境是否为虚拟机的函数，通过读取对应端口的内容进行判断，若触发异常则运行环境不为vmware。
