@@ -14,4 +14,5 @@ BOOL WINAPI DllMain(_In_ HINSTANCE hinstDll,
 	default:
 		break;
 	}
+	return true;
 }
