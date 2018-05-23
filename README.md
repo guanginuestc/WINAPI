@@ -18,3 +18,8 @@ windows相关api调用和实现便于使用的api
 ## usefunofexe
 该文件夹提供了一种通过调试程序，使用程序中的某个功能的方法。提供了一个使用任何exe中任何函数的方法。
 另一种使用其他应用程序的某项功能的例子见https://github.com/guanginuestc/AutoInput。
+
+## debugmain
+提供了多种在ring3环境下的反调试方案，其中函数可以直接使用，当进程处于被调试状态下时，反调试方案返回的均为1，否则为0.
+## createremotethread
+该文件夹下提供了一种使用远程线程进行dll注入的方案，并提供了样例dll的代码，当dll被成功注入的时候，会弹出对话框。
