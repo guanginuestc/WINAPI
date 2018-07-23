@@ -26,3 +26,6 @@ windows相关api调用和实现便于使用的api
 
 ## InputMethodInjection
 使用输入法注入技术对进程进行dll注入。其中ime.cpp为输入法源码，installime.cpp为输入法安装程序。可以对系统的全局进程进行dll注入。
+
+## run_before_main
+提供了让函数在main函数之前执行的代码编写方式。
